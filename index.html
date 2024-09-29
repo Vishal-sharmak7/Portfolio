@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo"><span>VISHAL</span>Dev</h2>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#">About</a>
+            <a href="#container">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="btn-talk">Let's Talk</a>
+    </header>
+
+    <section class="home" id="home">
+        <div>
+            <img src="vish.png" alt="" class="imgv">
+        </div>
+        <div class="content">
+            <h2>Hi, I'm <span>VISHAL SHARMA</span></h2>
+            <h4>Frontend Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A esse totam provident voluptas similique.
+                Impedit incidunt atque recusandae rem quam.</p>
+            <div class="btn-group">
+                <a href="#contact">Hire Me</a>
+                <a href="#container">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/vishal-sharma-9a56a52bb/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Vishal-sharmak7"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="container">
+            <h1>Portfolio</h1>
+            <div class="Photo-gallery">
+                <div class="nature emoji">
+                    <a href="https://github.com/Vishal-sharmak7/Calculator"><img src="Screenshot 2024-09-29 151227.png" alt=""></a>
+                </div>
+                <div class="nature emoji">
+                    <a href="https://github.com/Vishal-sharmak7/Image-Gallery"><img src="Screenshot 2024-09-29 151254.png" alt=""></a>
+                    
+                </div>
+                <div class="nature place">
+                    <a href="https://github.com/Vishal-sharmak7/Calculator"><img src="Screenshot 2024-09-29 151506.png" alt=""></a>
+            </div>
+            <div class="nature emoji">
+                <img src="codealphalogo.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form  action="https://api.web3forms.com/submit" method="POST">
+          <div class="input-group">
+            <div class="input-box">
+              <input type="text" name="Name" placeholder="Full Name" required>
+              <input type="email" name="Email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+              <input type="number"name="Number" placeholder="Phone Number" required>
+              <input type="text" name="Subject" placeholder="Subject" required>
+            </div>
+          </div>
+          <div class="input-group-2">
+            <input type="hidden" name="access_key" value="864ad947-4c78-4a3b-a078-02c455a85f23">
+            <textarea name="your Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn" >
+
+        </form>
+      </section>
+
+      <!-- foooter -->
+      <footer class="footer">
+
+        <p class="copyright">
+          &#169; VishalDev | All Rights Reserved
+        </p>
+
+      </footer>
+      
+
+
+
+
+
+</body>
+
+</html>
