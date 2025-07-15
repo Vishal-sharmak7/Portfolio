@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        script: ['"Dancing Script"', 'cursive'], // for the red signature
+        script: ['"Dancing Script"', 'cursive'], 
          myfont: ['MyFont', 'sans-serif'],
       },
       keyframes: {
