@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'MyFont';
-  src: url('../public/Amsterdam\ 400.ttf') format('truetype');
+  src: url('../public/fonts/Amsterdam\ 400.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
