@@ -1,12 +1,55 @@
-# React + Vite
+# 🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fast, and fully responsive **portfolio website** built using **React + Vite**, designed to showcase my projects, skills, and professional profile.
 
-Currently, two official plugins are available:
+This portfolio highlights my work, technical expertise, and provides easy access to my **GitHub**, **LinkedIn**, and contact details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Built with **Vite** for lightning-fast performance  
+- 🎨 Smooth animations using **Framer Motion** & **GSAP**
+- 📱 Fully responsive design (mobile, tablet & desktop)
+- 🧭 Client-side routing with **React Router**
+- 🎯 Clean UI with **Tailwind CSS**
+- 🧠 Showcases:
+  - Projects
+  - About Me
+  - Skills / Technologies
+  - Contact Information
+  - GitHub & LinkedIn Profiles
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- **React 19**
+- **Vite**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Framer Motion**
+- **GSAP**
+- **React Icons**
+- **React Fast Marquee**
+
+### Developer Tools
+- ESLint
+- PostCSS
+- Autoprefixer
+
+---
+
+## 📦 Dependencies
+
+```json
+"dependencies": {
+  "framer-motion": "^12.23.6",
+  "gsap": "^3.13.0",
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0",
+  "react-fast-marquee": "^1.6.5",
+  "react-icons": "^5.5.0",
+  "react-router-dom": "^7.6.3"
+}
